@@ -173,7 +173,7 @@ class _MyHomePageState extends StatelessWidget {
                     BlocBuilder<weather_cubit,weather_model>(
                         builder: (context, model) {
                           return Text(
-                            '${model.list_weather[0].temperature} °F',
+                            '${model.list_weather[0].temperature} °K',
                             textAlign: TextAlign.center,
                             overflow: TextOverflow.ellipsis,
                             style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 2.0, fontWeightDelta: 2, color: Colors.white.withOpacity(0.8)),
@@ -311,7 +311,7 @@ class _MyHomePageState extends StatelessWidget {
                                       BlocBuilder<weather_cubit,weather_model>(
                                           builder: (context, model) {
                                             return Text(
-                                              '${model.list_weather[1].temperature} °F',
+                                              '${model.list_weather[1].temperature} °K',
                                               textAlign: TextAlign.center,
                                               overflow: TextOverflow.ellipsis,
                                               style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 1.3, fontWeightDelta: 2, color: Colors.white),
@@ -461,7 +461,7 @@ class _MyHomePageState extends StatelessWidget {
                                     BlocBuilder<weather_cubit,weather_model>(
                                         builder: (context, model) {
                                           return Text(
-                                            '${model.list_weather[2].temperature} °F',
+                                            '${model.list_weather[2].temperature} °K',
                                             textAlign: TextAlign.center,
                                             overflow: TextOverflow.ellipsis,
                                             style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 1.3, fontWeightDelta: 2, color: Colors.white),
@@ -610,7 +610,7 @@ class _MyHomePageState extends StatelessWidget {
                                     BlocBuilder<weather_cubit,weather_model>(
                                         builder: (context, model) {
                                           return Text(
-                                            '${model.list_weather[3].temperature} °F',
+                                            '${model.list_weather[3].temperature} °K',
                                             textAlign: TextAlign.center,
                                             overflow: TextOverflow.ellipsis,
                                             style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 1.3, fontWeightDelta: 2, color: Colors.white),
@@ -758,7 +758,7 @@ class _MyHomePageState extends StatelessWidget {
                                     BlocBuilder<weather_cubit,weather_model>(
                                         builder: (context, model) {
                                           return Text(
-                                            '${model.list_weather[4].temperature} °F',
+                                            '${model.list_weather[4].temperature} °K',
                                             textAlign: TextAlign.center,
                                             overflow: TextOverflow.ellipsis,
                                             style: DefaultTextStyle.of(context).style.apply(fontSizeFactor: 1.3, fontWeightDelta: 2, color: Colors.white),
